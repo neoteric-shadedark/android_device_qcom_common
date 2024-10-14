@@ -22,9 +22,9 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
     $(COMMON_SEPOLICY_PATH)/common/public
 
-# AOSPA-QCOM Specific Required SEPolicy
+# Neoteric-QCOM Specific Required SEPolicy
 ifneq ($(AOSPA_BUILD),)
     SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
-        $(COMMON_SEPOLICY_PATH)/aospa/private \
+        $(COMMON_SEPOLICY_PATH)/neoteric/private \
         $(COMMON_SEPOLICY_PATH)/pixel/private
 endif
