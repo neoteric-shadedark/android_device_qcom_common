@@ -1,1 +1,3 @@
 nicm_socket(vendor_shsusrd);
+
+allow vendor_shsusrd servicemanager:binder call;
