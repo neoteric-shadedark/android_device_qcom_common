@@ -25,6 +25,5 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
 # Neoteric-QCOM Specific Required SEPolicy
 ifneq ($(AOSPA_BUILD),)
     SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
-        $(COMMON_SEPOLICY_PATH)/neoteric/private \
-        $(COMMON_SEPOLICY_PATH)/pixel/private
+        $(COMMON_SEPOLICY_PATH)/neoteric/private
 endif
